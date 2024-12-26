@@ -113,6 +113,6 @@ plt.title('График высоты ракеты от времени\n', fontsi
 plt.ylabel("Высота", fontsize=14) # Описание функции y на графике
 plt.xlabel("Время t", fontsize=14) # Описание функции x на графике
 plt.plot(x, y, 'r', label = "график мат.модели") # r, g - red, green colour
-plt.plot(x1, y1, 'g', label = "график KSP") # r, g - red, green colour
+plt.plot(x1, y1, 'g',linestyle='--', label = "график KSP") # r, g - red, green colour
 plt.legend()
 plt.show() # Вывод графика
